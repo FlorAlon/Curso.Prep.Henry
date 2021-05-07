@@ -1,0 +1,29 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables: Una variable es una forma de almacenar el valor de algo para poder utilizarlo 
+más tarde: VAR (palabra clave) -> le asignamos un nombre -> var NombreDeLaVarieble
+           Para asignarle valor a la variable utilizamos el signo = 
+           Ejemplo: var NombreDeLaVariable = 2
+
+	* Strings: Es una cadena de caracteres, siempre deben estar entre '' ó ¨¨ (comillas)
+           Ejemplo: 'Hola' no siempre son palabras podrian ser números '2'
+
+	* Funciones (argumentos, `return`): Las funciones son objetos, llamados objetos invocables,
+una función agrupa codigo y su estructura es -> function NombreDeLaFunción(argumento) {//codigo de la función}
+          - Los argumentos: Son variables que declaramos dentro de la función y estos toman 
+valos cuando invoco la función, los argumentos deben ir separados por ','(comas).
+          - return: Es una función que si retorna, para que la función según la respuesta devuelva algo.
+utilizando return, la función detiene inmediatamente lo que está haciendo y “devuelve” lo especificado.
+
+	* Declaraciones `if`: Es una forma de que nuestra función verifique si algo es true, y ya sea ejecutando el código 
+suministrado si es así o avanzando si no lo es. La palabra clave if tiene como significado SI, sirve para realizar aclaraciones para determinar
+que algo sea verdadero o falso.
+           Ejemplo: function PuedeManejar(edad) {
+                      if (edad >18) {
+                       return true
+                      }
+                       return false;
+                    }
+
+	* Valores booleanos (`true`, `false`): Estos valores proviene del codigo binario, donde solo es 0 ó 1, aquí se define como verdadero ó falso, 
+solo dos opciones. True = Verdadero y False = Falso.
